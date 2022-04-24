@@ -1,0 +1,15 @@
+.sidebar {
+  height: 100%;
+  width: 20%;
+  padding-left: 35px;
+  padding-top: 100px;
+
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.sidebar-card {
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
