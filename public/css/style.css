@@ -205,10 +205,7 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
-  width: 80%;
-  margin-left: 20%;
-  margin-top: -47.7%;
+  margin-top: -125%;
   padding: 0;
   background: url(https://t3.ftcdn.net/jpg/02/70/73/76/360_F_270737695_IaAkTD2p7vhmI5YNuYAGYlk2pGVwJUXS.jpg)
     center center no-repeat;
