@@ -16,6 +16,8 @@ import "./App.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
+import News from "./components/News";
+import NewsPage from "./components/NewsPage";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -32,6 +34,7 @@ const App = () => {
     <div className="app">
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/latestNews" element={<NewsPage />} />
 
         <Route path="/" element={<Home />} />
       </Routes>

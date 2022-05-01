@@ -1,9 +1,16 @@
 import Sidebar from "./Sidebar";
+import { Features } from "./features";
+import { useState, useEffect } from "react";
+import JsonData from "../data/data.json";
 
 export const Header = (props) => {
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
+
   return (
     <div className="header">
-      <Sidebar />
       <header id="header">
         <div className="intro">
           <div className="overlay">

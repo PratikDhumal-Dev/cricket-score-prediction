@@ -31,7 +31,12 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="/upcomingMatches" className="page-scroll">
-                Upcoming Matches
+                Live Score
+              </a>
+            </li>
+            <li>
+              <a href="/upcomingMatches" className="page-scroll">
+                Schedule
               </a>
             </li>
             <li>

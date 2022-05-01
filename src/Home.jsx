@@ -27,9 +27,10 @@ function Home() {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
-
-      <Features data={landingPageData.Features} />
+      <Sidebar />
+      <div className="header-home">
+        <Header data={landingPageData.Header} />
+      </div>
     </div>
   );
 }

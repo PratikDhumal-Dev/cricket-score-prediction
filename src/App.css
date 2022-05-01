@@ -3,16 +3,13 @@
     padding: 20px;
     width: 111%;
   }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 111%;
-  }
+}
 
-  #portfolio {
-    width: 110%;
-  }
+.header-home {
+  top: 210%;
+
+  left: 20%;
+  right: 0;
+  padding: auto;
+  position: fixed;
 }
